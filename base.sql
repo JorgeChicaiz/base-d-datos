@@ -2,4 +2,4 @@ CREATE DATABASE base;
 USE base;
 CREATE TABLE usuario(id VARCHAR(45) NOT NULL PRIMARY KEY AUTO_INCREMENTAL,
 	nombre VARCHAR(45) , password VARCHAR(45) );
-
+INSERT INTO usuario VALUES('1','alex','chicaiza'); 
